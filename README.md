@@ -1,4 +1,4 @@
-# **SCP**
+# **Az SCP alapítvány**
 _________
 ![Logo](logo.png)
 _________
