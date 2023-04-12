@@ -15,7 +15,7 @@ _________
 A weboldalon `Bootstrap` és `Javascript` van használva.
 _________
 #### Készítők:
-- CSöngető Csongor
+- Csöngető Csongor
 - Kapocsi Hunor
 - Tompos Gergő
 _________
