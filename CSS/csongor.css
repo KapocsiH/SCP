@@ -1,0 +1,37 @@
+
+
+.navbar {
+    background-color: rgb(22, 22, 22);
+}
+
+
+.center {
+    margin: auto;
+    width: 50%;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.nav-item {
+    width: max-content;
+    color: white;
+}
+
+.container-fluid {
+    width: max-content;
+    
+}
+
+.navbar-text,
+.navbar-brand,
+.nav-link,
+.navbar-item {
+    color: white !important;
+}
+
+
+
+
+
