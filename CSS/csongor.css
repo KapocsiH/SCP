@@ -94,4 +94,9 @@ div.card {
 .scp-anomaly-paragraph {
     background-color: rgba(61, 61, 61, 0.5);
     padding: 40px;
+    width: fit-content;
+}
+
+div.scp-anomaly-paragraph p {
+    text-indent: -4em;
 }
