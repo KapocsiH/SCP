@@ -1,3 +1,66 @@
 p:first-letter {
     margin-left: 5%;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../images/background.jpg);
+    background-size: 100%;
+}
+
+#container {
+    margin: auto;
+    width: 80%;
+}
+
+.navbar {
+    background-color: rgb(22, 22, 22);
+}
+
+.center {
+    margin: auto;
+    width: 100%;
+}
+
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.nav-item {
+    width: max-content;
+    color: white;
+}
+
+.container-fluid {
+    width: max-content;
+}
+
+.navbar-text,
+.navbar-brand,
+.nav-link,
+.navbar-item {
+    color: white !important;
+}
+
+.navbar-toggler {
+    border-color: white;
+    background-color: white;
+}
+
+div#content {
+    padding: 2% 5% 2% 5%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
