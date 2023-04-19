@@ -4,6 +4,20 @@
     padding: 0;
 }
 
+
+
+body{
+    background-image: url(../images/background.jpg);
+    background-size: 100%;
+
+}
+
+#container {
+    margin: auto;
+    width: 80%;
+}
+
+
 .navbar {
     background-color: rgb(22, 22, 22);
 }
@@ -11,14 +25,14 @@
 
 .center {
     margin: auto;
-    width: 70%;
+    width: 100%;
 }
 
 .center-image {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 100%;
 }
 
 .center-text {
@@ -47,4 +61,12 @@
 .navbar-toggler {
     border-color: white;
     background-color: white;
+}
+
+
+div#content {
+    padding: 2% 5% 2% 5%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
