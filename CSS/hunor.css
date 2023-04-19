@@ -109,3 +109,8 @@ h6{
 p{
     font-family: 'Product Sans Light Regular';
 }
+
+body{
+    background-image: url(/images/background.jpg);
+    background-size: 100%;
+}
