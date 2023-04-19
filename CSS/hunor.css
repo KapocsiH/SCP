@@ -98,7 +98,7 @@ h4{
     font-family: 'Product Sans Regular';
 }
 
-h6{
+h5{
     font-family: 'Product Sans Regular';
 }
 
@@ -108,4 +108,9 @@ h6{
 
 p{
     font-family: 'Product Sans Light Regular';
+}
+
+body{
+    background-image: url(/images/background.jpg);
+    background-size: 100%;
 }
