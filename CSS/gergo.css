@@ -68,3 +68,9 @@ div#content {
     padding: 40px;
     width: fit-content;
 }
+
+.card-bg {
+    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(61, 61, 61, 0.5);
+    color: white;
+}
