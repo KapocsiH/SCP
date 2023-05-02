@@ -7,54 +7,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../bootstrap css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="../CSS/style.css">
     <title>Az SCP-ről</title>
 </head>
 
 <body>
     <div id="container">
-        <img src="../images/main_header.png" alt="HEADER" class="center-image" id="main_header">
-        <div class="center">
-            <nav class="navbar navbar-expand-lg rounded-bottom">
-                <div class="container-fluid center">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <img src="../images/main_header_final.png" alt="HEADER" class="center-image" id="main_header">
+    <div class="center">
+        <nav id="navbar_top" class="navbar navbar-expand-lg rounded-bottom navbar-fixed-top" >
+            <div class="container-fluid center">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <a class="navbar-brand" href="../index.html">
-                                <img src="../images/homepageicon.png" alt="Bootstrap" width="30" height="24">
-                            </a>
-                            <li class="nav-item">
-                                <a class="nav-link" href="about_scp.html">Az SCP-ről</a>
-                            </li>
-
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <a class="navbar-brand" href="../index.html">
+                    <img src="../images/homepageicon.png" alt="Bootstrap" width="30" height="24">
+                  </a>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about_scp.html">Az SCP-ről</a>
+                  </li>
+        
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Anomáliák
                     </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="anomalies.html">Összes</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="anomalies.html#plague-doctor">SCP-049 - Plague Doctor</a></li>
-                                    <li><a class="dropdown-item" href="anomalies.html#living-room">SCP-002 - The "Living" Room</a></li>
-                                    <li><a class="dropdown-item" href="anomalies.html#doorman">SCP-303 - The Doorman</a></li>
-                                    <li><a class="dropdown-item" href="anomalies.html#sculpture">SCP-173 - The Sculpture</a></li>
-                                    <li><a class="dropdown-item" href="anomalies.html#shy-guy">SCP-096 - The "Shy Guy"</a></li>
-                                    <li><a class="dropdown-item" href="anomalies.html#empty-world">SCP-201 - The Empty World</a></li>
-                                </ul>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="contact.html">Kapcsolat</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="report_anomaly.html">Anomália bejelentése</a>
-                                </li>
-                    </div>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="anomalies.html">Összes</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="anomalies.html#plague-doctor">SCP-049 - Plague Doctor</a></li>
+                        <li><a class="dropdown-item" href="anomalies.html#living-room">SCP-002 - The "Living" Room</a></li>
+                        <li><a class="dropdown-item" href="anomalies.html#doorman">SCP-303 - The Doorman</a></li>
+                        <li><a class="dropdown-item" href="anomalies.html#sculpture">SCP-173 - The Sculpture</a></li>
+                        <li><a class="dropdown-item" href="anomalies.html#shy-guy">SCP-096 - The "Shy Guy"</a></li>
+                        <li><a class="dropdown-item" href="anomalies.html#empty-world">SCP-201 - The Empty World</a></li>
+                    </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Kapcsolat</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="report_anomaly.html">Anomália bejelentése</a>
+                      </li>
                 </div>
-            </nav>
-        </div>
+            </div>
+        </nav>
+    </div>
 
         <div id="content" class="rounded-top rounded-bottom">
             <div class="container-md p-5 text-center">
@@ -365,6 +363,24 @@
     </footer>
     <!-- Footer -->
 
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function(){
+          window.addEventListener('scroll', function() {
+              if (window.scrollY > 200) {
+                document.getElementById('navbar_top').classList.add('fixed-top');
+                document.getElementById('navbar_top').classList.add('fixed-top');
+                // add padding top to show content behind navbar
+                navbar_height = document.querySelector('.navbar').offsetHeight;
+                document.body.style.paddingTop = navbar_height + 'px';
+              } else {
+                document.getElementById('navbar_top').classList.remove('fixed-top');
+                  // remove padding top from body
+                document.body.style.paddingTop = '0';
+              } 
+    });
+    }); 
+    </script>
 
 </body>
 
