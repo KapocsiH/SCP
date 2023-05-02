@@ -1,0 +1,323 @@
+/* Csongor */
+
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+}
+
+body{
+    background-image: url(../images/background.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+}
+
+.navbar {
+    background-color: rgb(22, 22, 22);
+}
+
+.center {
+    margin: auto;
+    width: 100%;
+}
+
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.nav-item {
+    width: max-content;
+    color: white;
+}
+
+.container-fluid {
+    width: max-content;
+    
+}
+
+.navbar-text,
+.navbar-brand,
+.nav-link,
+.navbar-item {
+    color: white !important;
+}
+
+.navbar-toggler {
+    border-color: rgb(0, 0, 0);
+    border-width: 1px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+}
+
+div#content {
+    padding: 2% 5% 2% 5%;
+    background-color: rgba(255, 255, 255, 0);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#anomaly_cont .card-text {
+    color: black;
+}
+
+#anomaly_cont .card-img-top {
+    /* width: fit-content; */
+    height: 20rem;
+}
+
+#anomaly_cont div.card {
+    height: calc(100% - 15px);
+    margin-bottom: 15px;
+}
+
+.scp-anomaly-paragraph {
+    background-color: rgba(61, 61, 61, 0.5);
+    padding: 40px;
+    width: fit-content;
+}
+
+div.scp-anomaly-paragraph p {
+    text-indent: -2em;
+}
+
+.scp-item, .scp-object-class {
+    margin-bottom: 20px;
+}
+
+.list-group-costum .list-group-item {
+    background-color: rgba(255, 255, 255, 0);
+    opacity: 0.8;
+    color: white;
+    border: none;
+    border-bottom: 1px solid rgba(73, 66, 66, 0.589);
+    border-left: 2px solid rgb(15, 15, 15);
+}
+
+.list-group-costum .list-group-item:last-child {
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.list-group-costum .list-group-item:first-child {
+    background-color: rgba(12, 12, 12, 0.137);
+    color: white
+}
+
+#emptyworld {
+    width: auto;
+}
+
+/* Hunor */
+
+@font-face {
+    font-family: 'Product Sans Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Product Sans Regular'), url('/font/ProductSans-Regular.woff') format('woff');
+}
+    
+@font-face {
+    font-family: 'Product Sans Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Product Sans Italic'), url('/font/ProductSans-Italic.woff') format('woff');
+}
+    
+@font-face {
+    font-family: 'Product Sans Thin Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Product Sans Thin Regular'), url('/font/ProductSans-Thin.woff') format('woff');
+}
+    
+@font-face {
+    font-family: 'Product Sans Light Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Product Sans Light Regular'), url('/font/ProductSans-Light.woff') format('woff');
+}
+    
+@font-face {
+    font-family: 'Product Sans Medium Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Product Sans Medium Regular'), url('/font/ProductSans-Medium.woff') format('woff');
+}
+    
+@font-face {
+    font-family: 'Product Sans Black Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Product Sans Black Regular'), url('/font/ProductSans-Black.woff') format('woff');
+}
+    
+@font-face {
+    font-family: 'Product Sans Thin Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Product Sans Thin Italic'), url('/font/ProductSans-ThinItalic.woff') format('woff');
+}
+    
+@font-face {
+    font-family: 'Product Sans Light Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Product Sans Light Italic'), url('/font/ProductSans-LightItalic.woff') format('woff');
+}
+    
+@font-face {
+    font-family: 'Product Sans Medium Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Product Sans Medium Italic'), url('/font/ProductSans-MediumItalic.woff') format('woff');
+}
+    
+@font-face {
+    font-family: 'Product Sans Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Product Sans Bold'), url('/font/ProductSans-Bold.woff') format('woff');
+}
+    
+@font-face {
+    font-family: 'Product Sans Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Product Sans Bold Italic'), url('/font/ProductSans-BoldItalic.woff') format('woff');
+}
+    
+@font-face {
+    font-family: 'Product Sans Black Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Product Sans Black Italic'), url('/font/ProductSans-BlackItalic.woff') format('woff');
+}
+
+h1{
+    font-family: 'Product Sans Black Regular';
+}
+
+h2{
+    font-family: 'Product Sans Medium Regular';
+}
+
+h3{
+    font-family: 'Product Sans Medium Regular';
+}
+
+h4{
+    font-family: 'Product Sans Regular';
+}
+
+h5{
+    font-family: 'Product Sans Regular';
+}
+
+h6{
+    font-family: 'Product Sans Regular';
+}
+
+p{
+    font-family: 'Product Sans Light Regular';
+}
+
+body{
+    background-image: url(/images/background.jpg);
+    background-size: 100%;
+}
+
+/* Gergő */
+
+p:first-letter {
+    margin-left: 5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+#container {
+    margin: auto;
+    width: 80%;
+}
+
+.navbar {
+    background-color: rgb(22, 22, 22);
+}
+
+.center {
+    margin: auto;
+    width: 100%;
+}
+
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.nav-item {
+    width: max-content;
+    color: white;
+}
+
+.container-fluid {
+    width: max-content;
+}
+
+.navbar-text,
+.navbar-brand,
+.nav-link,
+.navbar-item {
+    color: white !important;
+}
+
+.navbar-toggler {
+    border-color: white;
+    background-color: white;
+}
+
+div#content {
+    padding: 2% 5% 2% 5%;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(61, 61, 61, 0.5);
+    padding: 40px;
+    width: fit-content;
+}
+
+.card-bg {
+    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(61, 61, 61, 0.5);
+    color: white;
+}
+
+body {
+    background-image: url(../images/background.jpg);
+    background-size: 100%;
+}
