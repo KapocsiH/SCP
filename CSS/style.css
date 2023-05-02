@@ -114,6 +114,14 @@ p{
     font-family: 'Product Sans Light Regular';
 }
 
+label{
+    font-family: 'Product Sans Regular';
+}
+
+input {
+    font-family: 'Product Sans Regular';
+}
+
 body{
     background-image: url(/images/background.jpg);
     background-size: 100%;
