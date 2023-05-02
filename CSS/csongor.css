@@ -65,8 +65,14 @@ body{
 
 
 .navbar-toggler {
-    border-color: white;
-    background-color: white;
+    border-color: rgb(0, 0, 0);
+    border-width: 1px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+}
+
+.dropdown-item {
+    
 }
 
 
