@@ -222,6 +222,7 @@ body{
 .container {
     margin: auto;
     width: 80%;
+    
 }
 
 .navbar {
@@ -270,7 +271,7 @@ body{
 
 div#content {
     padding: 2% 5% 2% 5%;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(61, 60, 60, 0.445);
     margin-top: 5px;
     margin-bottom: 5px;
 }
@@ -323,4 +324,19 @@ div.scp-anomaly-paragraph p {
 
 #emptyworld {
     width: auto;
+}
+
+#about_cont #danger-class .card-text{
+    color: black;
+}
+
+.google-map {
+
+    margin-top: 2%;
+}
+
+.google-map-text {
+
+    margin-top: 2%;
+
 }
