@@ -15,18 +15,18 @@
   <div class="container" id="anomaly_cont">
     <img src="../images/main_header_final.png" alt="HEADER" class="center-image" id="main_header">
     <div class="center">
-        <nav class="navbar navbar-expand-lg rounded-bottom" >
+        <nav id="navbar_top" class="navbar navbar-expand-lg rounded-bottom navbar-fixed-top" >
             <div class="container-fluid center">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <a class="navbar-brand" href="#">
+                  <a class="navbar-brand" href="../index.html">
                     <img src="../images/homepageicon.png" alt="Bootstrap" width="30" height="24">
                   </a>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Az SCP-ről</a>
+                    <a class="nav-link" href="about_scp.html">Az SCP-ről</a>
                   </li>
         
                   <li class="nav-item dropdown">
@@ -34,20 +34,20 @@
                       Anomáliák
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Összes</a></li>
+                        <li><a class="dropdown-item" href="anomalies.html">Összes</a></li>
                         <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">SCP-049 - Plague Doctor</a></li>
-                        <li><a class="dropdown-item" href="#">SCP-002 - The "Living" Room</a></li>
-                        <li><a class="dropdown-item" href="#">SCP-303 - The Doorman</a></li>
-                        <li><a class="dropdown-item" href="#">SCP-173 - The Sculpture</a></li>
-                        <li><a class="dropdown-item" href="#">SCP-096 - The "Shy Guy"</a></li>
-                        <li><a class="dropdown-item" href="#">SCP-201 - The Empty World</a></li>
+                        <li><a class="dropdown-item" href="anomalies.html#plague-doctor">SCP-049 - Plague Doctor</a></li>
+                        <li><a class="dropdown-item" href="anomalies.html#living-room">SCP-002 - The "Living" Room</a></li>
+                        <li><a class="dropdown-item" href="anomalies.html#doorman">SCP-303 - The Doorman</a></li>
+                        <li><a class="dropdown-item" href="anomalies.html#sculpture">SCP-173 - The Sculpture</a></li>
+                        <li><a class="dropdown-item" href="anomalies.html#shy-guy">SCP-096 - The "Shy Guy"</a></li>
+                        <li><a class="dropdown-item" href="anomalies.html#empty-world">SCP-201 - The Empty World</a></li>
                     </ul>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Kapcsolat</a>
+                        <a class="nav-link" href="contact.html">Kapcsolat</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Anomália bejelentése</a>
+                        <a class="nav-link" href="report_anomaly.html">Anomália bejelentése</a>
                       </li>
                 </div>
             </div>
@@ -407,6 +407,24 @@
       <!-- Copyright -->
     </footer>
     <!-- Footer -->
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function(){
+          window.addEventListener('scroll', function() {
+              if (window.scrollY > 200) {
+                document.getElementById('navbar_top').classList.add('fixed-top');
+                document.getElementById('navbar_top').classList.add('fixed-top');
+                // add padding top to show content behind navbar
+                navbar_height = document.querySelector('.navbar').offsetHeight;
+                document.body.style.paddingTop = navbar_height + 'px';
+              } else {
+                document.getElementById('navbar_top').classList.remove('fixed-top');
+                  // remove padding top from body
+                document.body.style.paddingTop = '0';
+              } 
+    });
+    }); 
+    </script>
 
 
 </body>
