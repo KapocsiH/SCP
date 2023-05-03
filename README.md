@@ -13,7 +13,7 @@ _________
 - Kapcsolat
 - Anomáliák bejelentése
 _________
-A weboldalon `Bootstrap` és `Javascript` van használva.
+A weboldalon `Bootstrap` van használva.
 _________
 #### Készítők:
 - Csöngető Csongor
