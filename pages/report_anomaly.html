@@ -57,27 +57,27 @@
                 <h1>Anomália jelentése</h1>    
             </div>
             <div >
-                <h2>
+                <h2 class="text-center">
                     Rendellenes élőlényt, tárgyat, vagy jelenséget vett észre?
                 </h2>
                 <br>
                 <h2 class="text-center">
                     Jelentse nálunk!
                 </h2>
-                <h4>
+                <h4 class="text-center">
                     Vegye fel kapcsolatot kollégainkkal, akik azon lesznek, hogy megvédjék Önt és szeretteit!
                 </h4>
-                <h5>
+                <h5 class="text-center">
                     Tárcsázza a kapcsolat oldalunkon található elérhetőségek egyikét, és legyen felkészülve az alábbi kérdések megválaszolására:
                 </h5>
-                <ul>
-                    <li>Észrevétel helye, időpontja</li>
-                    <li>A jelenség küllemének részletes leírása</li>
-                    <li>A jelenség körülbelüli tartózkodási helye</li>
+                <ul id="report_ul" class="text-center">
+                    <li >Észrevétel helye, időpontja</li>
+                    <li >A jelenség küllemének részletes leírása</li>
+                    <li >A jelenség körülbelüli tartózkodási helye</li>
                 </ul>
-                <h5>A jelentés után megbízottjaink a jelenség nyomában haladnak, és mielőbb megpróbálják megtalálni és elzárni.</h5>
-                <h5>Ehelyett használhatja űrlapunkat is, bár sűrgős eseteknél nem ajánljuk.</h5>
-                <form>
+                <h5 class="text-center">A jelentés után megbízottjaink a jelenség nyomában haladnak, és mielőbb megpróbálják megtalálni és elzárni.</h5>
+                <h5 class="text-center">Ehelyett használhatja űrlapunkat is, bár sűrgős eseteknél nem ajánljuk.</h5>
+                <!-- <form>
                     <label for="name">Név</label><br>
                     <input class="text-dark" type="text" id="name" name="name"><br>
                     <label for="number">Telefonszám</label><br>
@@ -86,9 +86,34 @@
                     <input class="text-dark" type="text" id="timeplace" name="timeplace"><br>
                     <label for="appearance">A jelenség küllemének részletes leírása</label><br>
                     <input class="text-dark" type="text" id="appearance" name="appearance"><br><br>
-                    <!-- <input class="text-dark" type="submit" value="Submit"><br><br> -->
+
                     <button type="button" class="btn btn-dark mb-3">Elküld</button>
+                </form> -->
+
+
+                <form id="rep_form">
+                    <div class="form-group">
+                      <label for="exampleFormControlInput1">Írja be az E-mail címét</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlSelect1">Válassza ki, hogy az entitás ön szerinte melyik besorolási osztájba tartozik:</label>
+                      <select class="form-control" id="exampleFormControlSelect1">
+                        <option>Safe</option>
+                        <option>Euclid</option>
+                        <option>Keter</option>
+
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlTextarea1">Írjon le mindent amit tud az anomáliáról, illetve, hogy hogyan és mikor találkozott vele:</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
                   </form>
+
+                  <button type="button" id='submit_report' class="btn btn-dark">Elküld</button>
+
+
                 <h5>Amennyiben hamis jelentést kapunk, a hatóságok felé irányítjuk Önt, ami Önt akár 30 év letöltendő börtönbüntetésre is ítélheti.</h5>
             </div>
         </div>

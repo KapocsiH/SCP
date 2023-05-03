@@ -349,3 +349,32 @@ div.scp-anomaly-paragraph p {
     margin-top: 2%;
 
 }
+
+.form-group option {
+    color: black;
+}
+
+.form-group {
+    margin: 30px 0 30px 0;
+}
+
+#submit_report {
+    width: 10rem;
+    margin-left: calc(50% - 5rem);
+    margin-bottom: 20px;
+    background-color: rgba(36, 36, 36, 0.795);
+}
+
+#submit_report:hover {
+    background-color: rgb(36, 36, 36);
+}
+
+#report_ul li {
+    list-style-type: none;
+    text-decoration: underline;
+}
+
+#rep_form {
+    width: 60%;
+    margin-left: 20%;
+}
