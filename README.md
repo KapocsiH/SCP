@@ -13,7 +13,7 @@ _________
 - Kapcsolat
 - Anomáliák bejelentése
 _________
-A weboldalon `TML és CCS` illetve `Bootsrap` van használva.
+A weboldalon `HTML és CCS` illetve `Bootsrap` van használva.
 _________
 #### Készítők:
 - Csöngető Csongor
