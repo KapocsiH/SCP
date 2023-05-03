@@ -4,7 +4,7 @@ _________
 _________
 Az oldalunk az úgy nevezett SCP Alapítványt mutatja be mely egy titkos, törvény felett álló szervezet. Minden jelentős állam kormánya által megbízott és felhatalmazott azzal a feladattal, hogy kontroll alatt tartson rendellenes tárgyakat, személyeket vagy jelenségeket.
 
-(github.io-s link)
+(https://kapocsih.github.io/SCP/)
 _________
 ### A következőket tartalmazza az oldal:
 - Kezdőlap
